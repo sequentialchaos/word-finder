@@ -1,0 +1,32 @@
+-- query the Datamuse API --
+example usage:
+syn=box
+ml 	"means like"
+sl 	"sounds like"
+sp 	"spelled like": for unknown letters use ? (one) and * (any number)
+jja 	popular nouns modified by given adjective, gradual → increase
+jjb 	popular adjectives that modify given noun, beach → sandy
+syn 	synonyms, ocean → sea
+trg 	"triggers" / associated words, cow → milking
+ant 	antonyms, late → early
+spc 	"specific, kind of" gondola → boat
+gen 	"general", boat → gondola
+com 	"comprises", car → accelerator
+par 	"part of," trunk → tree
+bga 	frequent followers, wreak → havoc
+bgb 	frequent predecessors, havoc → wreak
+rhy 	rhymes,	spade → aid
+nry 	approximate rhymes, forest → chorus
+hom 	Homophones (sound-alike words), course → coarse
+cns 	consonant match, sample → simple
+v 	vocabulary to use - enwiki for Wikipedia, es for English/Spanish  
+topics  up to 5 topics (themes), space or comma delimited
+lc 	"left context"  
+rc 	"right context"
+
+md for metadata, use with any of the following:
+d       definitions
+p       parts of speech 
+s       syllable count 	
+r       pronunciation 	
+f       word frequency
